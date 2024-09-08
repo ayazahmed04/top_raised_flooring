@@ -44,7 +44,7 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Projects",
     url: "#pricing",
   },
   {
@@ -73,14 +73,14 @@ export const navigation = [
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = ["https://www.kehuafloors.com/data/watermark/ueditor/20200601/5ed45e5d62b90.jpg", "https://www.kehuafloors.com/data/watermark/20200530/5ed1c0cba8c76.jpg", "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png"];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = ["https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png", "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png", "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png", "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png", "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png"];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Static Floor System",
+  "Business Office Floor setup",
+  "Fast Service",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,55 +94,55 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Calcium sulphate raised access floor (HDW)s",
+    text: "The panel is made of homogeneous calcium sulphate board, Bottom is galvanized steel sheet / aluminum sheet. The finish covered HPL、PVC or others comply with the customer’s requirement. Edge is 4 pcs black PVC trim along each side of the panel. This panel is 100% natural green materials with high loading capacity, non-combustible , Class A fire resistance also sound proof, fouling resistance, corrosion resistance, high wear resistance, Effective pavement , long using life etc.",
+    date: "May 2024",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200530/5ed1be7c36108.jpg",
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Permanent anti-static PVC flooring",
+    text: "This product used the electric conduction network formed by the interface of plastic particles, it has permanent antistatic function, homogeneous through the surface resembles marble, with a good decorative effect. The product is widely used in telecommunications, power electronics, microelectronics, medical and other industries program-controlled room, computer room, electrical control room clean purifying workshop and other requirements of purification and anti-static place.dd game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
     date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
+    status: "done",
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200601/5ed46490e78e3.jpg",
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Wood core raised access floor (HDM)",
+    text: "The panel is made of High-density particle board. Bottom is galvanized steel sheet / Aluminum sheet. Edge is 4 pcs black PVC trim along each side of the panel. Cover is HPL / PVC or others according to the customer’s requirement. This type flooring is as same as imported floor. This product technical performance is equivalent to the imported flooring products with a high loading capacity, high wear-resistant factor, light weight, low environmental pollution, foot feeling well, also have soundproofing, shockproof, fouling resistance, corrosion resistance, high wear resistance, effective pavement , long using life etc.",
+    date: "Sep 2024",
     status: "done",
-    imageUrl: roadmap3,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/ueditor/20200530/5ed1c12b1c227.jpg",
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Integration with Scientific Research Center, Business People",
+    text: "With Over 40 Years of Experience in Crafting Premium Raised Access Floor Systems and Exporting Globally, Top Raised Flooring is at the Forefront of the Industry. Our extensive expertise allows us to deliver top-notch products that meet the highest standards of quality and performance. We proudly collaborate with high-tech industries around the world, leveraging our deep knowledge to continually innovate and enhance our solutions. Our commitment to excellence and customer satisfaction drives us to expand our capabilities and reach new markets. We look forward to welcoming you as a valued customer and showcasing the exceptional quality and service that set us apart.",
+    date: "Sep 2024",
     status: "progress",
-    imageUrl: roadmap4,
+    imageUrl: "https://www.kehuafloors.com/data/upload/20200608/5eddf95bdc4d0.jpg",
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With Excellent Quality and Outstanding Customer Service, Top Raised Flooring is the Ideal Choice for Large Projects.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Seamless Quality",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Customer Privacy",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Top-notch Build Quality",
   },
 ];
 
@@ -150,21 +150,21 @@ export const collabApps = [
   {
     id: "0",
     title: "Figma",
-    icon: figma,
+    icon: "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png",
     width: 26,
     height: 36,
   },
   {
     id: "1",
     title: "Notion",
-    icon: notion,
+    icon: "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png",
     width: 34,
     height: 36,
   },
   {
     id: "2",
     title: "Discord",
-    icon: discord,
+    icon: "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png",
     width: 36,
     height: 28,
   },
@@ -178,7 +178,7 @@ export const collabApps = [
   {
     id: "4",
     title: "Photoshop",
-    icon: photoshop,
+    icon: "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png",
     width: 34,
     height: 34,
   },
@@ -192,14 +192,14 @@ export const collabApps = [
   {
     id: "6",
     title: "Framer",
-    icon: framer,
+    icon: "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png",
     width: 26,
     height: 34,
   },
   {
     id: "7",
     title: "Raindrop",
-    icon: raindrop,
+    icon: "https://www.kehuafloors.com/data/upload/20200508/5eb4b15dc8b49.png",
     width: 38,
     height: 32,
   },
@@ -208,35 +208,35 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Projects",
+    description: "Our projects in government Department",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Beijing 119 Fire Command Center",
+      "Beijing Certain Military Data Center",
+      "State intellectual Property Office",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    title: "Projects",
+    description: "Enterprises and Institution",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "China telecom cloud computing information park of guizhou",
+      "China telecom cloud computing information Neimenggu park",
+      "28th institute of China Electronic Science",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Big Projects",
+    description: " Railway, Rail Transit, Airport",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "China Civil Aviation Air Traffic Administration",
+      "Guangzhou Subway project",
+      "Beijing Subway project",
     ],
   },
 ];
@@ -245,52 +245,52 @@ export const benefits = [
   {
     id: "0",
     title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "Experience hassle-free purchasing with our expertly crafted solutions—elevate your space with Top Raised Floor.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200525/5ecb6eb258b3c.jpg",
   },
   {
     id: "1",
     title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    text: "Committed to Daily Improvement and Excellence For Top Raised Flooring Customer Happiness.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200525/5ecb6eb28a36d.jpg",
     light: true,
   },
   {
     id: "2",
     title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    text: "Connect with Us Anywhere—We’re Located in Gulf Countries mainly in Emirates, Europe, and China.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200525/5ecb6eb2b41bd.jpg",
   },
   {
     id: "3",
     title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "Fast Response and Quick Delivery are the Core Focuses of Top Raised Flooring.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200525/5ecb6eb2d293d.jpg",
     light: true,
   },
   {
     id: "4",
     title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "Our Buyers and Customers Can Inquire About Anything we're here to help you for 24/7.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200525/5ecb6eb33239e.jpg",
   },
   {
     id: "5",
     title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    text: "Top Raised Flooring Strives to Enhance Product Quality Every Day.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: "https://www.kehuafloors.com/data/watermark/20200525/5ecb6eb3584fe.jpg",
   },
 ];
 
@@ -299,7 +299,7 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://www.kehuafloors.com/contact-us/",
   },
   {
     id: "1",

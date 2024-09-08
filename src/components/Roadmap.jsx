@@ -50,7 +50,7 @@ const Roadmap = () => (
 
                   <div className="mb-10 -my-10 -mx-15">
                     <img
-                      className="w-full"
+                      className="w-full  transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
                       src={item.imageUrl}
                       width={628}
                       height={426}

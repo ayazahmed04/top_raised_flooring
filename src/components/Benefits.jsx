@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="Buy with Confidence Solutions Made Easy, with Top Raised Floor"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -46,7 +46,7 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-50">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}

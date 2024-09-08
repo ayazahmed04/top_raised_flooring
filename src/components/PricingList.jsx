@@ -16,7 +16,7 @@ const PricingList = () => {
             {item.description}
           </p>
 
-          <div className="flex items-center h-[5.5rem] mb-6">
+          {/* <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
                 <div className="h3">$</div>
@@ -25,7 +25,7 @@ const PricingList = () => {
                 </div>
               </>
             )}
-          </div>
+          </div> */}
 
           <Button
             className="w-full mb-6"

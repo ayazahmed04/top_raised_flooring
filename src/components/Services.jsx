@@ -16,26 +16,26 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Top Raised Flooring STATIC FLOOR MAKING CO., LTD."
+          text="We Develop, Produce, and Market Raised Access Floor Systems"
         />
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="w-full h-full object-cover md:object-right opacity-50"
                 width={800}
-                alt="Smartest AI"
+                alt="Top Raised Flooring System"
                 height={730}
-                src={service1}
+                src={"https://www.kehuafloors.com/themes/simplebootx/kehua/images/abtu.jpg"}
               />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Smartest Top Raised floor</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Top Raised Floor unlocks the potential of better workspace
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -57,7 +57,7 @@ const Services = () => {
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src={service2}
+                  src={"https://www.kehuafloors.com/data/upload/ueditor/20200525/5ecb751f1d8b5.jpg"}
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
@@ -66,10 +66,9 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Full Scientific Research</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                Everything Top Raised Flooring Build it's backed on scientific reasearch and experience of more than 40 years
                 </p>
               </div>
 
@@ -78,10 +77,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Beijing certain military data center</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                With Our Projects, Top Raised Flooring Demonstrates Our Leadership in Floor Static Management in Whole World.
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -110,11 +108,11 @@ const Services = () => {
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
-                  src={service3}
+                  src={"https://www.kehuafloors.com/data/upload/ueditor/20200525/5ecb758c1ce85.jpg"}
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
-                  alt="Scary robot"
+                  alt="Video Service Picture of Top Raised Floor"
                 />
 
                 <VideoChatMessage />
