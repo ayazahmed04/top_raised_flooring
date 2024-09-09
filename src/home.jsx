@@ -11,7 +11,7 @@ import Services from "./components/Services";
 
 
 
-const App = () => {
+const home = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
@@ -31,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default home;
