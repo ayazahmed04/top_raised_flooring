@@ -8,6 +8,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -27,8 +28,9 @@ const Hero = () => {
             <span className="inline-block relative">
             solutions in China, specializing in global exports.{" "}
               <img
-                src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
+              src={curve} //   Alternative source if he doesnt' like 
+                // src={"https://www.kehuafloors.com/data/upload/20200608/5eddf95bdc4d0.jpg"}
+                className="absolute top-full left-0 w-full xl:-mt-2  rounded-lg "
                 width={624}
                 height={28}
                 alt="Curve"
@@ -38,9 +40,19 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           Leading Raised Access Floor Manufacturer with Over 30 Years of Experience, Exporting to Gulf and European Countries
           </p>
-          <Button href="/pricing" white>
-            Get started
+          {/* <Link to={"/login"}> 
+          <Button  white>
+            DOWNLOAD PDF
           </Button>
+          </Link> */}
+        
+        {/* Changing it to download pdf  */}
+          <a href="https://fanyuzhao.com/wp-content/uploads/2024/07/Rich-Dad-Poor-Dad.pdf" target="_blank" rel="noopener noreferrer" download>
+  <Button white>
+    DOWNLOAD PDF
+  </Button>
+</a>
+
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">

@@ -39,34 +39,34 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Products",
+    url: "/products",
   },
   {
     id: "1",
     title: "Projects",
-    url: "#pricing",
+    url: "/projects",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "About US",
+    url: "/aboutus",
   },
   {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    id: "3  ",
+    title: "FAQ",
+    url: "/faq",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
   {
     id: "5",
     title: "Sign in",
-    url: "#login",
+    url: "/login",
     onlyMobile: true,
   },
 ];

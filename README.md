@@ -440,8 +440,8 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "FAQ",
+    url: "/faq",
   },
   {
     id: "4",

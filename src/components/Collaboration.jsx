@@ -3,6 +3,7 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { Link } from "react-router-dom";
 
 const Collaboration = () => {
   return (
@@ -27,7 +28,9 @@ const Collaboration = () => {
             ))}
           </ul>
 
+            <Link to={'/projects'}>
           <Button>Try it now</Button>
+          </Link>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
