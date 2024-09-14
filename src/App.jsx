@@ -13,6 +13,7 @@ import ProductList from './products/components/ProductList';
 import ProductDetail from './products/components/ProductDetail';
 import AboutUs from './about/aboutus';
 import Faq from './faq/faq';
+import ContactUs from './contactus/contactus';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/products/:id" element={<ProductDetail />} />
         <Route path='aboutus' element={<AboutUs />} />
         <Route path='/faq' element={<Faq />} />
+        <Route path='/contactus' element={<ContactUs />} />
 
       </Routes>
     </Router>
