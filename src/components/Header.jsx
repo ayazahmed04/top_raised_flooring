@@ -73,17 +73,20 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        {/* <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+        <Link
+          to={'/contactus'}
+          className="button  mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New account
-        </a> */}
+          Contact US
+        </Link>
+
+
         <Link to={'/login'}>
         <Button onClick={handleRedirectToLogin} className="hidden lg:flex">
           Sign in
         </Button>
         </Link>
+        
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
