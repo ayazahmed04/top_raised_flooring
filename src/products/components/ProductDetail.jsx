@@ -38,8 +38,7 @@ const ProductDetail = () => {
         {/* Product Details */}
         <h2 className="text-3xl font-bold mt-4 text-gray-800">{product.name}</h2>
         <p className="text-gray-600 mt-4">{product.description}</p>
-
-        {/* PDF Download Button */}
+        {/* PDF download Button  */}
         {product.pdfUrl ? (
           <a 
             href={product.pdfUrl} 
