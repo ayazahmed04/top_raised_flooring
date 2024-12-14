@@ -23,11 +23,10 @@ const Hero = () => {
       >
          <div className="container relative" ref={parallaxRef}>
             <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-               <h1 className="h1 mb-6">
-                  We want to be number one&nbsp;provider of&nbsp;raised flooring{' '}
-                  {` `}
+               <h1 className="h1 mb-6 capitalize">
+                  To be number one&nbsp;provider of&nbsp;raised flooring {` `}
                   <span className="inline-block relative">
-                     solutions in Dubai.{' '}
+                     solutions in UAE.{' '}
                      <img
                         src={curve} //   Alternative source if he doesnt' like
                         // src={"https://www.kehuafloors.com/data/upload/20200608/5eddf95bdc4d0.jpg"}

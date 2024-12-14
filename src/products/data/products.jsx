@@ -33,12 +33,12 @@ resistance, long using life, excellent waterproof and fireproof performance.
    },
    {
       id: 3,
-      name: 'Cementitious HPL Finish Perforated Panel',
+      name: 'Metal Frame HPL Finish Perforated Panel',
       description:
-         'This product is widely applied to intelligent 5A office buildings...',
+         'Perforated panel is used under air flow system,the material is steel withelectrostaticspraying,the top surface is HPL finish.Airflow rate is 20%-25%.Together withtheairflowsliding damper,the perforated panel performs much more efficiency on air control indatarooms,and the ventilation rate can be adjusted arbitrarily from0-25%.Perforatedpanelcanmatch with antistatic raised floor or separately use..',
       image: 'https://www.kehuafloors.com/data/watermark/20200601/5ed4666a4d176.jpg',
       pdfUrl:
-         'https://raw.githubusercontent.com/ayazahmed04/pdf_host_for_web/main/Cementitious%20HPL%20finish%20perforated%20panel.pdf',
+         'https://raw.githubusercontent.com/ayazahmed04/pdf_host_for_web/main/Perforated%20panel.pdf',
    },
    {
       id: 4,
