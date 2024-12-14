@@ -23,7 +23,7 @@ const Hero = () => {
       >
          <div className="container relative" ref={parallaxRef}>
             <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-               <h1 className="h1 mb-6 capitalize">
+               <h1 className="h1 mb-6 ">
                   To be number one&nbsp;provider of&nbsp;raised flooring {` `}
                   <span className="inline-block relative">
                      solutions in UAE.{' '}
